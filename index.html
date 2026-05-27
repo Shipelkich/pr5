@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практична робота 5 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Практична робота №5 </h1>
+
+        <section id="task1" class="task-section">
+            <h2>Завдання 1: Аркуш із візитними картками (12x3)</h2>
+            <button id="btn-task1" class="action-btn">Згенерувати візитки</button>
+            <div id="cards-container"></div>
+        </section>
+
+        <section id="task2" class="task-section">
+            <h2>Завдання 2: Цитати авторів</h2>
+            <p>Натисніть на прізвище автора, щоб побачити його вислів:</p>
+            <div class="button-group">
+                <button onclick="showQuote(6)">Горацій</button>
+                <button onclick="showQuote(7)">Цицерон</button>
+                <button onclick="showQuote(8)">М. Шумило</button>
+                <button onclick="showQuote(9)">Ч. Айтматов</button>
+                <button onclick="showQuote(10)">П. Гольбах</button>
+            </div>
+        </section>
+
+        <section id="task3" class="task-section">
+            <h2>Завдання 3: Математичні функції й константи</h2>
+            <button id="btn-task3" class="action-btn">Показати розрахунки</button>
+            <div id="math-container" class="output-box" style="display: none;"></div>
+        </section>
+        
+        <section id="task4" class="task-section">
+            <h2>Завдання 4: Розгалужений обчислювальний процес</h2>
+            <p>Функція: <b>U(x)</b> (sin x - tg x | 0 | ctg³ x)</p>
+            <button id="btn-task4" class="action-btn">Ввести дані та обчислити</button>
+            <div id="table-container"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
